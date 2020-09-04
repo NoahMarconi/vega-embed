@@ -2,6 +2,7 @@ import { applyPatch, Operation } from 'fast-json-patch';
 import stringify from 'json-stringify-pretty-compact';
 import { satisfies } from 'semver';
 import * as vegaImport from 'vega';
+import { label } from 'vega-label';
 import {
   EncodeEntryName,
   Loader,
@@ -25,6 +26,7 @@ import { mergeDeep } from './util';
 
 export * from './types';
 
+vegaImport.transforms.label = label;
 export const vega = vegaImport;
 export let vegaLite = vegaLiteImport;
 
