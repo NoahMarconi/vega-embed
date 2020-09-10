@@ -43,7 +43,7 @@
     "rollup": "^2.26.5",
     "terser": "^5.2.1",
     "typescript": "~4.0.2",
-    "vega": "^5.10.0",
+    "vega": "github:NoahMarconi/vega#feat/labelFill",
     "vega-lite": "^4.7.0",
     "vega-lite-dev-config": "^0.12.0"
   },
